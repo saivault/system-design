@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client-Server Architecture</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html">
+
+    <h1>Client-Server Architecture</h1>
+    <blockquote>
+      Client-server architecture is the fundamental building block of the web.
+    </blockquote>
+    <blockquote>
+      Foundation of how computers speak to one another
+    </blockquote>
+    <div>
+      <p style="width: 60%; float:left">
+        The architecture works on a <b>request-response model</b>. The client sends the request to the server for information and 
+        the server responds with it. Every website you browse, is built on the client-server architecture. A very small percent of 
+        the business websites and applications use the peer-to-peer architecture, which is different from the client-server.
+      </p>
+      <img src="client-server.png" style="width: 40%; float:right">
+    </div>
+    <br style="clear: left;">
+    <h2>Client</h2>
+    <p>
+      The client is any tool that acts on behalf of the user. It can be a mobile app, a desktop or a tablet like an iPad. It can 
+      also be a web-based console, running commands to interact with the backend server. The client holds our user interface. 
+      The user interface is the presentation part of the application. It's written in HTML, CSS, JavaScript and is responsible 
+      for the look and feel of the application.
+    </p>
+    <b>Thin client</b> - client that holds just the user interface of the application. It has no business logic of any sort. For 
+    every action, the client sends a request to the backend server.
+    <br>
+    <b>Thick client</b> - client that holds all or some part of the business logic.
+
+    <h2>Server</h2>
+    <p>
+      It receives the requests from the client and provide the response after executing the business logic based on the request 
+      parameters received from the client.
+    </p>
+  
+    <h3>Communication between them</h3>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    The entire communication happens over the <b>HTTP protocol</b>. It is the protocol for data exchange over the World Wide Web. 
+    HTTP protocol is a request-response protocol that defines how information is transmitted across the web.
+    <br>
+    It’s a stateless protocol, and every process over HTTP is executed independently and has no knowledge of previous processes.
+
+  </div>
+</body>
+</html>
